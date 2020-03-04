@@ -1,0 +1,3 @@
+# Эту строку суем в свой fstab
+# Автомонтирование шары для бэкапов
+\\IP/FQDN_интерфейса_вашей_хуйни_под_бэкапы\папка\ /mnt/backup/ cifs credentials=/home/vash_username/.smbcredentials,iocharset=utf8,file_mode=0777,dir_mode=0777 0 0
