@@ -4,5 +4,5 @@
 df -h | grep %папканеймзаменинасвоё%
 if [ $? -eq 0 ]
 then exit
-else /usr/src/mount_force.sh
+else /путь_до/mount_force.sh
 fi
